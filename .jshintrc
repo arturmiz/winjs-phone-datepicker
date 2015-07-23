@@ -1,0 +1,23 @@
+{
+  "browser": true,
+  "bitwise": true,
+  "camelcase": false,
+  "curly": true,
+  "eqeqeq": true,
+  "es3": false,
+  "forin": true,
+  "freeze": true,
+  "funcscope": false,
+  "immed": true,
+  "latedef": true,
+  "newcap": true,
+  "noempty": true,
+  "nonew": true,
+  "undef": true,
+  "unused": true,
+  "strict": true,
+  "globalstrict": true,
+  "globals": {
+    "define": true
+  }
+}
