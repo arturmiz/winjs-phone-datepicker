@@ -1,0 +1,74 @@
+﻿.winjs-phone-datepicker {
+    display: -ms-grid;
+    -ms-grid-columns: 1fr;
+    -ms-grid-rows: 73px 1fr;
+}
+
+.winjs-phone-datepicker .container {
+    display: block;
+    height: 88vh;
+    overflow-y: hidden;
+    margin: auto;
+    -ms-grid-column: 1;
+    -ms-grid-row: 2;
+    -ms-grid-row-align: center;
+}
+
+.winjs-phone-datepicker .container > .scrollable {
+    display: inline-block;
+    height: 100%;
+    overflow-y: scroll;
+    -ms-scroll-snap-y: mandatory snapInterval(0, 130px);
+    -ms-overflow-style: none;
+}
+
+.winjs-phone-datepicker .container.l-container2 {
+    width: 260px;
+}
+
+.winjs-phone-datepicker .container.l-container3 {
+    width: 390px;
+}
+
+.winjs-phone-datepicker .l-container2 > .scrollable {
+    width: calc(100% / 2);
+}
+
+.winjs-phone-datepicker .l-container3 > .scrollable {
+    width: calc(100% / 3);
+}
+
+.winjs-phone-datepicker .list {
+    position: relative;
+    top: 0;
+    padding: 200px 0;
+}
+
+.winjs-phone-datepicker article {
+    display: block;
+    visibility: hidden;
+    width: 120px;
+    height: 120px;
+    box-sizing: border-box;
+    border: 2px solid #666666;
+    padding: 30px 5px 10px 5px;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 10px auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.winjs-phone-datepicker .scrollable.active article {
+    visibility: visible;
+}
+
+.winjs-phone-datepicker article.selected {
+    visibility: visible;
+    background: #666666;
+}
+
+.winjs-phone-datepicker article h4 {
+    font-size: 19px;
+}
