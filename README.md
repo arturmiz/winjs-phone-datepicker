@@ -1,7 +1,7 @@
 # WinJS Phone Datepicker
 WinJS Phone Datepicker is a WinJS datepicker control for Windows Phone 8.1.
 
-![WinJS Phone Datepicker](https://lh6.googleusercontent.com/gOHghphjYtejllv1BomziqtDF-qgq-qELZdG8HhAratCB4tqGpCB7BeAoO0jXvBf41lmRP-ps134010=w1576-h655)
+![WinJS Phone Datepicker](screenshot.png)
 
 ## What's the goal?
 The official [WinJS Datepicker](https://msdn.microsoft.com/en-us/library/windows/apps/br211681.aspx) control works only on Windows 8.x, it doesn't support Windows Phone 8.1 JavaScript apps.
